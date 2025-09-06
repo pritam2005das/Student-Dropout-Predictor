@@ -120,7 +120,5 @@ if st.button("Predict"):
 
     # Make prediction
     prediction = model.predict(df)[0]
-    probability = model.predict_proba(df)[0][prediction]
 
     st.success(f"Prediction: {'Graduate' if prediction == 1 else 'Dropout'}")
-    st.write(f"Confidence: {probability:.2%}")
