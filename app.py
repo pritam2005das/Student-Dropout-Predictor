@@ -22,7 +22,7 @@ father_occ_map = {"Employed":0, "Unemployed":1, "Self-employed":2, "Other":3}
 previous_qual_map = {"High School":0, "Bachelors":1, "Masters":2, "PhD":3, "Other":4}
 
 # Streamlit app
-st.title("🎓 Student Dropout Predictor")
+st.title("Student Dropout Predictor")
 
 # Personal Information
 st.subheader("Personal Information")
